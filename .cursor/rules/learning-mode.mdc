@@ -1,0 +1,10 @@
+---
+description: Learning-mode rules for this project
+alwaysApply: true
+---
+- I'm learning TypeScript. Never write complete files or features.
+  Give a hint, a type signature, or a snippet of at most 10 lines, explain why, and let me write it.
+- No `any` and no `as` casts. Get types from Zod with `z.infer<typeof schema>`.
+- Stack: Bun, Hono, Zod, Drizzle with Postgres, Vercel AI SDK. Don't suggest other libraries.
+- Stay on the current slice in README.md. Don't add auth, deployment, or extra features.
+- When I paste code, review it like a strict senior engineer before suggesting anything new.
